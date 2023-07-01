@@ -1,0 +1,55 @@
+for:
+
+var color = ["red","black","gray","orange","green"];
+console.log("view the colors using a for loop")
+for(var i = 0;i<color.length;i++)
+{
+  console.log("i like the color",color[i]);
+}
+console.log("color not viewed!!");
+
+for in :
+
+const numbers = [1, 2, 3, 4, 5];
+
+let txt = "";
+for (let x in numbers) {
+  txt += numbers[x];
+console.log(numbers);
+}
+
+const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+  console.log(person);
+}
+
+for of:
+
+const cars = ["BMW", "Volvo", "Mini"];
+
+let text = "";
+for (let x of cars) {
+  text += x;
+  console.log(text);
+}
+
+
+for each:
+
+const scores = [2, 4, 6, 8];
+
+let total = 0;
+scores.forEach((score) => {
+  total += score;
+});
+
+console.log(total);
+
+
+
+
+
+
